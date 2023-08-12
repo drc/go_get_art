@@ -1,4 +1,4 @@
-module go_get_art
+module github.com/drc/go_get_art
 
 go 1.20
 
