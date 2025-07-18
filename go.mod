@@ -1,12 +1,12 @@
 module github.com/drc/go_get_art
 
-go 1.20
+go 1.23.0
 
 require (
 	github.com/charmbracelet/lipgloss v0.9.1
 	github.com/joho/godotenv v1.5.1
 	github.com/zmb3/spotify/v2 v2.4.0
-	golang.org/x/oauth2 v0.13.0
+	golang.org/x/oauth2 v0.27.0
 )
 
 require (
@@ -21,9 +21,4 @@ require (
 	golang.org/x/sys v0.13.0 // indirect
 )
 
-require (
-	github.com/alexflint/go-arg v1.4.3
-	github.com/golang/protobuf v1.5.3 // indirect
-	google.golang.org/appengine v1.6.8 // indirect
-	google.golang.org/protobuf v1.33.0 // indirect
-)
+require github.com/alexflint/go-arg v1.4.3
